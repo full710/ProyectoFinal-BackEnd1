@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;          
+    gap: 30px;                
+    justify-content: center; 
+    margin-top: 50px;
+}
+
+
+.card {
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 350px;
+    height: auto;  
+    margin-bottom: 30px;         
+    box-sizing: border-box;       
+    overflow: hidden;            
+}
+
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+
+.card-img-top {
+    width: auto;            
+    height: 150px;
+    margin: auto;  
+    margin-top: 10px;        
+    object-fit: cover;          
+    border-top-left-radius: 15px;  
+    border-top-right-radius: 15px; 
+}
+
+
+.card-body {
+    padding: 1.5rem;
+}
+
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.card-text {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #28a745;
+}
+
+
+.btn-primary {
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+    transition: background-color 0.3s;
+    width: 100%; 
+}
+
+.btn-primary:hover {
+    background-color: #ff6347;
+    border-color: #ff6347;
+}
+
+
+
+header {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+p {
+    font-size: 1.25rem;
+    color: #6c757d;
+}
+
+#contenedorProductos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ff6347;
+    border-color: #ff6347;
+}
+
+img{
+    width: 150px;
+    height: auto;;
+}

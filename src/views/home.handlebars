@@ -1,0 +1,29 @@
+<header class="text-center my-5">
+    <h1 class="display-4 text-primary">Bienvenidos a nuestra tienda</h1>
+    <h2 class="text-muted">Encuentra los mejores productos para tu entrenamiento</h2>
+</header>
+
+<div class="container product-container">
+  {{#each docs}} <!-- Iterar sobre productos.docs -->
+      <div class="card">
+        <img src="{{this.img}}" class="img card-img-top" alt="{{this.title}}">
+        <div class="card-body">
+          <h5 class="card-title">{{this.title}}</h5>
+          <p class="card-text">{{this.description}}</p>
+          <p class="card-text"><strong>Precio: {{this.price}}</strong></p>
+          <p class="card-text"><strong>Código: {{this.code}}</strong></p>
+          <p class="card-text"><strong>Cantidad disponible: {{this.stock}}</strong></p>
+        </div>
+        <button class="btn btn-primary">Añadir al carrito</button>
+      </div>
+  {{/each}}
+</div>
+
+<div class="pagination">
+  {{#if prevLink}}
+    <a href="{{prevLink}}" class="btn btn-primary">Página anterior</a>
+  {{/if}}
+  {{#if nextLink}}
+    <a href="{{nextLink}}" class="btn btn-primary">Página siguiente</a>
+  {{/if}}
+</div>

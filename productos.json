@@ -1,0 +1,51 @@
+[
+    {
+      "title": "Camiseta Deportiva Nike",
+      "description": "Camiseta transpirable de manga corta, ideal para entrenamientos y running.",
+      "price": 35.99,
+      "img": "images/camiseta-nike.jpg",
+      "code": "NIKE001",
+      "stock": 20
+    },
+    {
+      "title": "Pantalón Adidas Training",
+      "description": "Pantalón de entrenamiento con tecnología Climalite para mayor comodidad.",
+      "price": 45.50,
+      "img": "images/pantalon-adidas.jpg",
+      "code": "ADIDAS002",
+      "stock": 15
+    },
+    {
+      "title": "Zapatillas Reebok Running",
+      "description": "Zapatillas ligeras con amortiguación avanzada para mayor rendimiento.",
+      "price": 79.99,
+      "img": "images/zapatillas-reebok.jpg",
+      "code": "REEBOK003",
+      "stock": 10
+    },
+    {
+      "title": "Guantes de Entrenamiento Under Armour",
+      "description": "Guantes acolchonados para levantamiento de pesas y entrenamiento funcional.",
+      "price": 25.00,
+      "img": "images/guantes-underarmour.jpg",
+      "code": "UA004",
+      "stock": 30
+    },
+    {
+      "title": "Sudadera Puma Performance",
+      "description": "Sudadera con capucha, ideal para entrenamientos en climas fríos.",
+      "price": 55.99,
+      "img": "images/sudadera-puma.jpg",
+      "code": "PUMA005",
+      "stock": 12
+    },
+    {
+      "title": "Short Deportivo Nike",
+      "description": "Short ligero y cómodo para actividades deportivas y entrenamiento diario.",
+      "price": 29.99,
+      "img": "images/short-nike.jpg",
+      "code": "NIKE006",
+      "stock": 25
+    }
+]
+  
