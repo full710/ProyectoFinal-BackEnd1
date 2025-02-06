@@ -1,7 +1,6 @@
 
 # Proyecto de E-commerce
 
-Primera pre-entrega del curso de Back End 1 - Coder Hause. Servidor para manejar productos y carritos de compras. Está implementado con **Node.js** y **Express**. A continuación, se detallan los pasos para instalar las dependencias y cómo probar las rutas con Postman.
 
 ## Instalación
 
